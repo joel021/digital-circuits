@@ -1,0 +1,119 @@
+# Reading pref.tcl
+# do lab2b_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+G:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab2b/src {G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/shifter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:08 on Jul 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src" G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 20:27:08 on Jul 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab2b/src {G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/logical.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:08 on Jul 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src" G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/logical.sv 
+# -- Compiling module logical
+# 
+# Top level modules:
+# 	logical
+# End time: 20:27:08 on Jul 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab2b/src {G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/fulladder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:08 on Jul 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src" G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/fulladder.sv 
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	fulladder
+# End time: 20:27:09 on Jul 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab2b/src {G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:09 on Jul 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src" G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 20:27:09 on Jul 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab2b/src {G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/addsub.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:09 on Jul 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src" G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/addsub.sv 
+# -- Compiling module addsub
+# 
+# Top level modules:
+# 	addsub
+# End time: 20:27:09 on Jul 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab2b/src {G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/comparator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:10 on Jul 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src" G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/comparator.sv 
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 20:27:10 on Jul 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+G:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab2b/src {G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:10 on Jul 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src" G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/src/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 20:27:10 on Jul 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+G:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab2b/fpga/../sim {G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/fpga/../sim/alu_32bit_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:10 on Jul 07,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/fpga/../sim" G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/fpga/../sim/alu_32bit_tb.sv 
+# -- Compiling module alu_32bit_tb
+# 
+# Top level modules:
+# 	alu_32bit_tb
+# End time: 20:27:10 on Jul 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_32bit_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_32bit_tb 
+# Start time: 20:27:11 on Jul 07,2022
+# Loading sv_std.std
+# Loading work.alu_32bit_tb
+# Loading work.alu
+# Loading work.addsub
+# Loading work.adder
+# Loading work.shifter
+# Loading work.logical
+# Loading work.comparator
+# Loading work.fulladder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/fpga/../sim/alu_32bit_tb.sv(77)
+#    Time: 22 ns  Iteration: 0  Instance: /alu_32bit_tb
+# 1
+# Break in Module alu_32bit_tb at G:/Meu Drive/estudos/2021.2/CD II/labs/lab2b/fpga/../sim/alu_32bit_tb.sv line 77
+# End time: 20:29:02 on Jul 07,2022, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0

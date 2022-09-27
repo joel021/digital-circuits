@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// Universidade Federal do Recôncavo da Bahia
+// -----------------------------------------------------------------------------
+// Autor  	: joaocarlos joaocarlos@ufrb.edu.br
+// Arquivo	: debouncer.sv
+// Editor 	: Sigasi Studio, tab size (3)
+// -----------------------------------------------------------------------------
+// Descrição:
+//    Limpa o sinal do efeito bounce causado por contatos mecânicos.
+// -----------------------------------------------------------------------------
+// Entradas: 
+// 	  raw   : entrada vinda de um botão ou chave
+// 	  clk   : clock do sistema
+// -----------------------------------------------------------------------------
+// Saidas:
+// 	  clean : sinal limpo
+// -----------------------------------------------------------------------------
+// Parâmetros:
+// 	  N : Quantidade de pulsos de clock (2^N)
+// -----------------------------------------------------------------------------
+// Modificado por: Joel Pires
+`timescale 1ns / 1ps
+`default_nettype none
+
+module debouncer #(parameter N=20)(
+   input wire raw,
+   input wire clk,
+   output logic clean = 0
+);
+
+	logic [N:0] count = 0;
+	reg prev_row = 0;
+
+	// the the next value cleaned is the previus while the current value is not estabilished
+	always @(posedge clk) begin
+		count <= (raw != prev_row) ? 0 : count + 1;
+		prev_row <= raw;
+		clean <= (count[N] == 1) ? raw : clean;
+	end
+	
+endmodule

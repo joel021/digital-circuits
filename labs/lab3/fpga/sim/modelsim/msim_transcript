@@ -1,0 +1,53 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Administrador/Downloads/lab3/rtl {C:/Users/Administrador/Downloads/lab3/rtl/xycounter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:26:02 on May 13,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Administrador/Downloads/lab3/rtl" C:/Users/Administrador/Downloads/lab3/rtl/xycounter.sv 
+# -- Compiling module xycounter
+# 
+# Top level modules:
+# 	xycounter
+# End time: 15:26:02 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Administrador/Downloads/lab3/fpga/../sim {C:/Users/Administrador/Downloads/lab3/fpga/../sim/xycounter_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:26:02 on May 13,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Administrador/Downloads/lab3/fpga/../sim" C:/Users/Administrador/Downloads/lab3/fpga/../sim/xycounter_tb.sv 
+# -- Compiling module xycounter_tb
+# 
+# Top level modules:
+# 	xycounter_tb
+# End time: 15:26:02 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  xycounter_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" xycounter_tb 
+# Start time: 15:26:02 on May 13,2022
+# Loading sv_std.std
+# Loading work.xycounter_tb
+# Loading work.xycounter
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/Administrador/Downloads/lab3/fpga/../sim/xycounter_tb.sv(30)
+#    Time: 50 ns  Iteration: 0  Instance: /xycounter_tb
+# 1
+# Break in Module xycounter_tb at C:/Users/Administrador/Downloads/lab3/fpga/../sim/xycounter_tb.sv line 30
+# End time: 15:28:50 on May 13,2022, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 0

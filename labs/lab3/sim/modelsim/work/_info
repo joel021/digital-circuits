@@ -1,0 +1,211 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vcountermod4
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1652441690
+!i10b 1
+!s100 >B6IB]O=g=@k9O:c<M]Pl2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ic`g3AW[UN@@6HeZ4JQ4gW0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/modelsim
+w1652402433
+8H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod4.sv
+FH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod4.sv
+!i122 111
+L0 4 12
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1652441690.000000
+!s107 H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod4.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vcountermod4_tb
+R0
+R1
+!i10b 1
+!s100 2:m[@7RA^CMNSm^PFSkoe2
+R2
+I>>OR0XegWo3aoA3nIB<W40
+R3
+S1
+R4
+w1652401682
+8H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod4_tb.sv
+FH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod4_tb.sv
+!i122 110
+L0 14 52
+R5
+r1
+!s85 0
+31
+R6
+!s107 H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod4_tb.sv|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod4_tb.sv|
+!i113 1
+Z9 o-work work
+R8
+vcountermod7
+R0
+Z10 !s110 1652441691
+!i10b 1
+!s100 @o?LYW7UL00D[oVk?1ECZ3
+R2
+IR?QXjezhWU?g6O4eJGIVf1
+R3
+S1
+R4
+w1652403584
+8H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod7.sv
+FH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod7.sv
+!i122 112
+L0 5 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod7.sv|
+!s90 -reportprogress|300|-work|work|-stats=none|H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod7.sv|
+!i113 1
+R9
+R8
+vcountermod7_tb
+R0
+R10
+!i10b 1
+!s100 7en?Q=T52QVj1mo00?^8T2
+R2
+IB_NWC3dQ65TUh4zklGG]U1
+R3
+S1
+R4
+w1652403081
+8H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod7_tb.sv
+FH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod7_tb.sv
+!i122 113
+L0 14 53
+R5
+r1
+!s85 0
+31
+Z11 !s108 1652441691.000000
+!s107 H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod7_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod7_tb.sv|
+!i113 1
+R7
+R8
+vcountermod7enable
+R0
+R10
+!i10b 1
+!s100 TX0Ck@;GfHD7^066J>6Yh0
+R2
+IUCXWZNeU6N><97?YEK<H@1
+R3
+S1
+R4
+w1652404133
+8H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod7enable.sv
+FH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod7enable.sv
+!i122 114
+L0 4 15
+R5
+r1
+!s85 0
+31
+R11
+!s107 H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod7enable.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/countermod7enable.sv|
+!i113 1
+R7
+R8
+vcountermod7enable_tb
+R0
+Z12 !s110 1652441692
+!i10b 1
+!s100 alVBNXD4cNn??on]FizkH1
+R2
+IjbC0P=]]7QhMJKMI1H^Di1
+R3
+S1
+R4
+w1652404220
+8H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod7enable_tb.sv
+FH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod7enable_tb.sv
+!i122 115
+L0 14 44
+R5
+r1
+!s85 0
+31
+Z13 !s108 1652441692.000000
+!s107 H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod7enable_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/countermod7enable_tb.sv|
+!i113 1
+R7
+R8
+vxycounter
+R0
+R12
+!i10b 1
+!s100 <=XfI<D:CkjPU=fIVgNLY0
+R2
+I5fd45<h:H8G[7L2HTnebX2
+R3
+S1
+R4
+w1652407575
+8H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/xycounter.sv
+FH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/xycounter.sv
+!i122 116
+L0 4 23
+R5
+r1
+!s85 0
+31
+R13
+!s107 H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/xycounter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/rtl/xycounter.sv|
+!i113 1
+R7
+R8
+vxycounter_tb
+R0
+!s110 1652441693
+!i10b 1
+!s100 CHflAM83C[THED2:OZSH=1
+R2
+I8ia8CVb`:k]EmnDaCYQ;C1
+R3
+S1
+R4
+w1652405609
+8H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/xycounter_tb.sv
+FH:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/xycounter_tb.sv
+!i122 117
+L0 14 35
+R5
+r1
+!s85 0
+31
+R13
+!s107 H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/xycounter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|H:/Meu Drive/estudos/2021.2/CD II/labs/lab3/sim/xycounter_tb.sv|
+!i113 1
+R7
+R8

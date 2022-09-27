@@ -1,0 +1,119 @@
+# Reading pref.tcl
+# do digital_clock_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/digital_clock/src {H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/updowncounter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:11:58 on Jun 14,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src" H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/updowncounter.sv 
+# -- Compiling module updowncounter
+# 
+# Top level modules:
+# 	updowncounter
+# End time: 12:11:59 on Jun 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/digital_clock/src {H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/stopwatch.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:11:59 on Jun 14,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src" H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/stopwatch.sv 
+# -- Compiling module stopwatch
+# 
+# Top level modules:
+# 	stopwatch
+# End time: 12:11:59 on Jun 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/digital_clock/src {H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/hexto7seg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:11:59 on Jun 14,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src" H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/hexto7seg.sv 
+# -- Compiling module hexto7seg
+# 
+# Top level modules:
+# 	hexto7seg
+# End time: 12:11:59 on Jun 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/digital_clock/src {H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/fsm.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:11:59 on Jun 14,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src" H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/fsm.sv 
+# -- Compiling module fsm
+# 
+# Top level modules:
+# 	fsm
+# End time: 12:11:59 on Jun 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/digital_clock/src {H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/displayNdigit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:11:59 on Jun 14,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src" H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/displayNdigit.sv 
+# -- Compiling module displayNdigit
+# 
+# Top level modules:
+# 	displayNdigit
+# End time: 12:12:00 on Jun 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/digital_clock/src {H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/CounterTime.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:00 on Jun 14,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src" H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/CounterTime.sv 
+# -- Compiling module CounterTime
+# 
+# Top level modules:
+# 	CounterTime
+# End time: 12:12:00 on Jun 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/digital_clock/src {H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/BCDCounter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:00 on Jun 14,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src" H:/Meu Drive/estudos/2021.2/CD II/digital_clock/src/BCDCounter.sv 
+# -- Compiling module BCDCounter
+# 
+# Top level modules:
+# 	BCDCounter
+# End time: 12:12:00 on Jun 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/digital_clock/fpga/../sim {H:/Meu Drive/estudos/2021.2/CD II/digital_clock/fpga/../sim/stopwatch_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:01 on Jun 14,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/digital_clock/fpga/../sim" H:/Meu Drive/estudos/2021.2/CD II/digital_clock/fpga/../sim/stopwatch_tb.sv 
+# -- Compiling module stopwatch_tb
+# 
+# Top level modules:
+# 	stopwatch_tb
+# End time: 12:12:01 on Jun 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  stopwatch_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" stopwatch_tb 
+# Start time: 12:12:01 on Jun 14,2022
+# Loading sv_std.std
+# Loading work.stopwatch_tb
+# Loading work.stopwatch
+# Loading work.fsm
+# Loading work.updowncounter
+# Loading work.CounterTime
+# Loading work.BCDCounter
+# Loading work.displayNdigit
+# Loading work.hexto7seg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : H:/Meu Drive/estudos/2021.2/CD II/digital_clock/fpga/../sim/stopwatch_tb.sv(33)
+#    Time: 40400 us  Iteration: 0  Instance: /stopwatch_tb
+# 1
+# Break in Module stopwatch_tb at H:/Meu Drive/estudos/2021.2/CD II/digital_clock/fpga/../sim/stopwatch_tb.sv line 33
+# End time: 12:13:27 on Jun 14,2022, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0

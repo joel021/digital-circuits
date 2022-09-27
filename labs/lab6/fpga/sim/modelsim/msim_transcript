@@ -1,0 +1,74 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do lab6_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab6/src {H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src/displayNdigit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:44:48 on May 30,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src" H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src/displayNdigit.sv 
+# -- Compiling module displayNdigit
+# 
+# Top level modules:
+# 	displayNdigit
+# End time: 15:44:49 on May 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab6/src {H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src/seebounce.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:44:49 on May 30,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src" H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src/seebounce.sv 
+# -- Compiling module seebounce
+# 
+# Top level modules:
+# 	seebounce
+# End time: 15:44:49 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab6/src {H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src/debouncer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:44:49 on May 30,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src" H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/src/debouncer.sv 
+# -- Compiling module debouncer
+# 
+# Top level modules:
+# 	debouncer
+# End time: 15:44:49 on May 30,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+H:/Meu\ Drive/estudos/2021.2/CD\ II/labs/lab6/fpga/../sim {H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/fpga/../sim/debounce_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:44:49 on May 30,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/fpga/../sim" H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/fpga/../sim/debounce_tb.sv 
+# -- Compiling module debounce_tb
+# 
+# Top level modules:
+# 	debounce_tb
+# End time: 15:44:50 on May 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  debounce_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" debounce_tb 
+# Start time: 15:44:50 on May 30,2022
+# Loading sv_std.std
+# Loading work.debounce_tb
+# Loading work.debouncer
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/fpga/../sim/debounce_tb.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /debounce_tb
+# 1
+# Break in Module debounce_tb at H:/Meu Drive/estudos/2021.2/CD II/labs/lab6/fpga/../sim/debounce_tb.sv line 44
+# End time: 15:48:44 on May 30,2022, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 0
